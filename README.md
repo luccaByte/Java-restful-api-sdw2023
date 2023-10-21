@@ -33,8 +33,8 @@ classDiagram
     - description: String
   }
 
-  User "1" --> "1" Account: has
-  User "0..*" --> "0..*" Feature: has
-  User "1" --> "1" Card: has
-  User "0..*" --> "0..*" News: has
+  User "1" *--> "1" Account: has
+  User "0..*" *--> "N" Feature: has
+  User "1" * --> "1" Card: has
+  User "0..*" *--> "N" News: has
 ```
