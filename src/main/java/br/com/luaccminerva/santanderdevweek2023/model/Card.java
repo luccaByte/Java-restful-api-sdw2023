@@ -20,10 +20,10 @@ public class Card {
 
     private String agency;
 
-    @Column( scale = 13, precision = 2)
+    @Column( scale = 2, precision = 13)
     private BigDecimal balance;
 
-    @Column(name = "avaliable_limit", scale = 13, precision = 2)
+    @Column(name = "avaliable_limit", scale = 2, precision = 13)
     private BigDecimal limit;
 
     
