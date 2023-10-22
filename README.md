@@ -1,6 +1,6 @@
 # Desafio de Projeto - Santander Dev Week 2023
 
-Java RESTful API criada para a Santander Dev Week 2023"
+Java RESTful API criada para a Santander Dev Week 2023
 
 ### Diagrama de Classes
 
