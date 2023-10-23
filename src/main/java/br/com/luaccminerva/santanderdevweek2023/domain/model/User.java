@@ -1,5 +1,4 @@
-package br.com.luaccminerva.santanderdevweek2023.model;
-
+package br.com.luaccminerva.santanderdevweek2023.domain.model;
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Entity;
 import jakarta.persistence.FetchType;

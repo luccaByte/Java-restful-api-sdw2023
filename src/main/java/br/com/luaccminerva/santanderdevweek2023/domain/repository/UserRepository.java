@@ -1,4 +1,4 @@
-package br.com.luaccminerva.santanderdevweek2023.repository;
+package br.com.luaccminerva.santanderdevweek2023.domain.repository;
 
 import br.com.luaccminerva.santanderdevweek2023.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

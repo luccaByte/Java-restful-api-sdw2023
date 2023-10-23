@@ -1,4 +1,4 @@
-package br.com.luaccminerva.santanderdevweek2023.model;
+package br.com.luaccminerva.santanderdevweek2023.domain.model;
 
 import jakarta.persistence.Entity;
 
