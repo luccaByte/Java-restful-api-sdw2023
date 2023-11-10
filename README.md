@@ -1,8 +1,15 @@
 # Desafio de Projeto - Santander Dev Week 2023
 
-Java RESTful API criada para a Santander Dev Week 2023
+Java RESTful API criada para a Santander Dev Week 2023, utilizando Java 17 e Spring Boot 3.
 
-### Diagrama de Classes
+### Tecnologias
+
+- Java 17: [Documentação](https://docs.oracle.com/en/java/javase/17/)
+- Spring Boot 3: [Documentação](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#getting-started)
+- Spring Data JPA: [Documentação](https://docs.spring.io/spring-data/jpa/docs/current/reference/html/)
+- Railway: [Documentação](https://docs.railway.app/)
+
+### Diagrama de Classe da API
 
 ```mermaid
 
@@ -39,6 +46,7 @@ classDiagram
   User "0..*" *--> "N" News: has
 ```
 
-### Modelo Santander
+### Modelo Figma do App Santander
 
- - [Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=2-92&mode=design&t=yRxhKzjzKWJ3XQ4J-0)
+Uma prévia do modelo usado para construção da api:
+ - [Modelo Figma](https://www.figma.com/file/0ZsjwjsYlYd3timxqMWlbj/SANTANDER---Projeto-Web%2FMobile?type=design&node-id=2-92&mode=design&t=yRxhKzjzKWJ3XQ4J-0)
