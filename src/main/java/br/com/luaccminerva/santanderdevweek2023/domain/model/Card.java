@@ -17,16 +17,10 @@ public class Card {
 
     @Column(unique = true)
     private String number;
-
-    private String agency;
-
-    @Column( scale = 2, precision = 13)
-    private BigDecimal balance;
-
-    @Column(name = "avaliable_limit", scale = 2, precision = 13)
+    
+    @Column(name = "available_limit", precision = 13, scale = 2)
     private BigDecimal limit;
 
-    
     public Long getId() {
         return id;
     }
@@ -43,22 +37,6 @@ public class Card {
         this.number = number;
     }
 
-    public String getAgency() {
-        return agency;
-    }
-
-    public void setAgency(String agency) {
-        this.agency = agency;
-    }
-    
-    public BigDecimal getBalance() {
-        return balance;
-    }
-
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
-    }
-    
     public BigDecimal getLimit() {
         return limit;
     }
